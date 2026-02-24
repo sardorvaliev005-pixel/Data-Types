@@ -51,10 +51,10 @@
 // let res3 = num1 * num2;
 // let res4 = num1 / num2;
 
-// console.log(num1, ` + `, num2, ` = `, res1);
-// console.log(num1, ` - `, num2, ` = `, res2);
-// console.log(num1, ` * `, num2, ` = `, res3);
-// console.log(num1, ` / `, num2, ` = `, res4);
+// console.log("num1 +  num2", res1);
+// console.log("num1 - num2", res2);
+// console.log("num1 *  num2" , res3);
+// console.log("num1 /  num2", res4);
 
 // ==================================================================
 
@@ -73,7 +73,7 @@
 
 // let num1 = +prompt('num1ni kiriting');
 
-// let res = num1 * num1;
+// let res = num1 * num1 * num1;
 // console.log( res);
 
 // ==========================================================
@@ -99,18 +99,20 @@
 // 11) To‘g‘ri to‘rtburchak yuzasi
 // a va b berilgan. Yuzasini toping.
 
-// let num1 = +prompt("enter side1: ");
-// let num2 = +prompt("enter side2: ");
+// let num1 = +prompt('num1ni kiriting'
+// let num2 = +prompt('num2ni kiriting');
 
-// let res = num1 * num2;
+// let res =2 * (num1 + num2);
+
 // console.log( res);
+
 // ============================================================
 
 // 13) Vaqtni topish
 // Masofa va tezlik berilgan. Vaqtni toping.
 
-// let num1 = +prompt("enter km: ");
-// let num2 = +prompt("enter speed: ");
+// let num1 = +prompt("enter km ");
+// let num2 = +prompt("enter speed");
 
 // let res = num1 / num2;
 // console.log( res);
@@ -119,8 +121,8 @@
 // 14) Masofani topish
 // Tezlik va vaqt berilgan. Masofani toping.
 
-// let num1 = +prompt("enter km: ");
-// let num2 = +prompt("enter time: ");
+// let num1 = +prompt("enter km");
+// let num2 = +prompt("enter time");
 
 // let res = num1 * num2;
 // console.log( res);
@@ -129,8 +131,8 @@
 // 15) O‘rtacha qiymat (2 ta son)
 // 2 ta sonning o‘rtacha qiymatini toping
 
-// let num1 = +prompt("enter num1: ");
-// let num2 = +prompt("enter num2: ");
+// let num1 = +prompt("enter num1");
+// let num2 = +prompt("enter num2");
 
 // let res = (num1 + num2) / 2;
 // console.log(res);
@@ -139,9 +141,9 @@
 // 16) O‘rtacha qiymat (3 ta son)
 // 3 ta sonning o‘rtacha qiymatini toping
 
-// let num1 = +prompt("enter num1: ");
-// let num2 = +prompt("enter num2: ");
-// let num3 = +prompt("enter num2: ");
+// let num1 = +prompt("enter num1");
+// let num2 = +prompt("enter num2");
+// let num3 = +prompt("enter num2");
 
 // let res = (num1 + num2 + num3) / 3;
 // console.log(res);
@@ -150,27 +152,33 @@
 // 17) Yoshni hisoblash
 // Tug‘ilgan yil orqali yoshni toping.
 
-// let num1 = +prompt("enter year of birth: ");
+// let num1 = +prompt("tugilgan yilni kiriting");
+// let num2 = +prompt('hozirgi yilni kiriting')
 
-// console.log("Your age - ", 2026 - num1);
+// let res = num2 / num1
+
+// console.log(res);
+
 // ==========================================================
 
 // 18) Soatni minutga aylantirish
 // Soat berilgan. Minutga aylantiring.
 
-// let hours = +prompt("Enter hours:");
+// let hours = +prompt("Enter hours");
+
 // let res = 60 * hours;
 
-// console.log(res, "minutes");
+// console.log(res);
 // ======================================================
 
 // 19) Minutni sekundga aylantirish
 // Minut berilgan. Sekundga aylantiring.
 
-// let minutes = +prompt("Enter minutes:");
+// let minutes = +prompt("Enter minutes");
+
 // let res = 60 * minutes;
 
-// console.log(res, " seconds");
+// console.log(res,);
 // =================================================
 
 // 20) Pulni bo‘lish
@@ -180,6 +188,5 @@
 // let people = +prompt("Enter people");
 
 // let res = money / people;
+
 // console.log(res);
-
-
